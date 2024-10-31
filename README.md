@@ -10,11 +10,11 @@ This project is a Spring Boot application that demonstrates how to handle constr
 
 ## Technologies Used
 
-- Spring Boot: Framework for building Java applications
-- Spring Web: For building web applications
-- Spring Data JPA: For data access and manipulation
-- MariaDB: Database for storing application data
-- Spring DevTools: For enhancing the development experience
+- `Spring Boot:` Framework for building Java applications
+- `Spring Web:` For building web applications
+- `Spring Data JPA:` For data access and manipulation
+- `MariaDB:` Database for storing application data
+- `Spring DevTools:` For enhancing the development experience
 
 ## Getting Started
 
@@ -38,13 +38,13 @@ The application will start on http://localhost:8080.
 
 ### Endpoints
 
-1. Test Endpoint
+1. `Test Endpoint`
   - URL: `/test`
   - Method: GET
   - Description: Test the API to ensure it's running
   - Response: "Test for COnstraint Violation"
 
-2. Save DATA
+2. `Save DATA`
   - URL: `/save`
   - Method: POST
   - Description: Save a new user data record to the database
@@ -56,22 +56,22 @@ The application will start on http://localhost:8080.
       "phoneno":8903467829
       }
 
-3. Get All users data
+3. `Get All users data`
   - URL: `/show`
   - Method: GET
   - Description: Returns a list of all student data.
   
-4. Retreving data using Name or Id.
+4. `Retreving data using Name or Id.`
   - URL: `/byname/{fname}{lname}` or `/byid/{userid}`
   - Method: GET
   - Description: Returns a list of all users data.
 
-5. Updating users data
+5. `Updating users data`
   - URL: `/update/{userid}`
   - Method: PUT
   - Description: Updates all fields of data.
 
-6. Deletion of student data
+6. `Deletion of student data`
   - URL: `/delete/{userid}`
   - Method: DELETE
   - Description: Delete student data of provided id.
