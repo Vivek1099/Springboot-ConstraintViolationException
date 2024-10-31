@@ -27,7 +27,7 @@ This project is a Spring Boot application that demonstrates how to handle constr
 
 1. Clone the repository:
    ```sh
-    git clone https://github.com/yourusername/spring-boot-constraint-violation.git
+    git clone [https://github.com/yourusername/spring-boot-constraint-violation.git](https://github.com/Vivek1099/Springboot-ConstraintViolationException.git)
 2. Build the project:
    ```sh
      mvn clean install
